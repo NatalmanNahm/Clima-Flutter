@@ -35,7 +35,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
       int condition = decodedData ['weather'] [0] ['id'];
       double temp = decodedData['main'] ['temp'];
       String city = decodedData['name'];
-      
+
       print(city);
       print(condition);
       print(temp);
